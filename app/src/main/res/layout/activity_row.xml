@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="5.0dp"
+    android:paddingBottom="5.0dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/ActivityRowActivityComplete"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="18.0dp"
+        android:id="@+id/ActivityRowActivityText"
+        android:text="Activity"
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/ActivityRowThumbsUp"
+        android:src="@drawable/thumbs_up"
+        android:layout_width="40.0dp"
+        android:layout_height="40.0dp" />
+
+    <TextView
+        android:textColor="@color/Green"
+        android:text="4"
+        android:textSize="16.0sp"
+        android:id="@+id/ActivityRowUpCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginLeft="40.0dp"
+        android:id="@+id/ActivityRowThumbsDown"
+        android:src="@drawable/thumbs_down"
+        android:layout_width="40.0dp"
+        android:layout_height="40.0dp" />
+
+    <TextView
+        android:textColor="@color/Red"
+        android:layout_marginRight="15.0dp"
+        android:text="4"
+        android:textSize="16.0sp"
+        android:id="@+id/ActivityRowDownCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

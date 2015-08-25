@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5.0dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/TripRowIcon"
+        android:src="@drawable/pending"
+        android:layout_width="40.0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/TripRowName"
+        android:layout_marginLeft="10.0dp"
+        android:textSize="24.0sp"
+        android:layout_gravity="center_vertical"
+        android:text="Travis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/TripEditText"
+        android:layout_marginLeft="8.0dp"
+        android:text="edit"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

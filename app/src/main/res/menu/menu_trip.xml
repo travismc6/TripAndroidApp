@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bitewolf.tripsie.TripDetailActivity">
+    <item android:id="@+id/trip_comments" android:title="Comments"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/trip_activities" android:title="Activities"
+
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/trip_update_location" android:title="Update my location"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/trip_location" android:title="Where is everyone?"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

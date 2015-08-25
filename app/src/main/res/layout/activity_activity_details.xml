@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.bitewolf.tripsie.ActivityDetails">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:text="Suggested By: "
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="my name"
+
+            android:id="@+id/ActivityDetailsSuggestedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20.0dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:text="Details: "
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5.0dp"
+        android:text="this is my long description of an activity that should span multiple lines"
+        android:id="@+id/ActivityDetailsDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_marginTop="25.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_weight=".5"
+                android:textColor="@color/Green"
+                android:text="Up Votes"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight=".5"
+                android:textColor="@color/Red"
+                android:text="Down Votes"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+        <TableRow>
+            <ListView android:id="@+id/ActivityDetailUpVotes"
+                android:layout_weight="1" android:layout_width="match_parent">
+
+            </ListView>
+
+            <ListView android:id="@+id/ActivityDetailDownVotes"
+                android:layout_weight="1" android:layout_width="match_parent">
+
+            </ListView>
+
+        </TableRow>
+
+        </TableLayout>
+
+
+    <CheckBox
+        android:id="@+id/ActivityDetailMarkAsComplete"
+       android:layout_marginTop="5.0dp"
+        android:text="Mark as complete"
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp" tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="20.0dp"
+        android:layout_marginBottom="20.0dp"
+        android:id="@+id/MainCreateTrip"
+        android:text="New Trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+  <Button
+      android:layout_marginBottom="20.0dp"
+      android:id="@+id/MainGetTrips"
+      android:text="My Trips"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/MainEnterCode"
+        android:text="Enter Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+
+
+        android:layout_marginRight="-30.0dp"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:src="@drawable/beach_chair_256"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
